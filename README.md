@@ -17,7 +17,7 @@ This code does the following:
 * Merges all test data together with proper column names.
 * Merges training and test data together.
 * Orders data by subjectID.
-* Subsets the measurement variables to include only mean and standard deviationmeasurements as instructed in assignment.
+* Subsets the measurement variables to include only mean and standard deviationmeasurements as instructed in assignment. (This includes any variable with 'mean' or 'std' in the name, including meanFreq() variables and including angle variables.  I included everything to err on the side of too much data, since it was unclear in the instructions.)
 * Creates a smaller tidy data set with the average value for each mean/std measurement for each activity and each subject.
 * Writes tidy data set to a file called 'tidyWearablesData.csv'.
 
